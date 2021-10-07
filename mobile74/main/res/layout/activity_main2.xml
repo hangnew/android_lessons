@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <Chronometer
+        android:id="@+id/m2Chrono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px"
+        android:format="시간 측정 %s" />
+
+    <TimePicker
+        android:id="@+id/m2Time"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:timePickerMode="spinner"/>
+
+    <CalendarView
+        android:id="@+id/m2Cal"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="340dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/m2Button1"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90px"
+            android:layout_marginRight="20px"
+            android:backgroundTint="@color/google_blue"
+            android:text="START"/>
+
+        <Button
+            android:id="@+id/m2Button2"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/google_red"
+            android:text="END"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/m2Button3"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90px"
+            android:layout_marginRight="20px"
+            android:backgroundTint="@color/google_yellow"
+            android:text="날짜 가지고 오기"/>
+
+        <Button
+            android:id="@+id/m2Button4"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/google_yellow"
+            android:text="시간 가지고 오기"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/m2Button5"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90px"
+        android:backgroundTint="@color/google_green"
+        android:text="다음 액티비티로" />
+
+</LinearLayout>
