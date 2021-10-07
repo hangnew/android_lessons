@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100px"
+        android:text="Q2. 험난한 사막길을 건너 마침내 오아시스에 도착했다.\n나무 그늘 아래서 휴식을 취하던 상인이 물건을 권유한다.\n어떤 것을 가져가실 건가요?"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/b5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_marginTop="50px"
+            android:layout_marginBottom="30px"
+            android:layout_marginHorizontal="100px"
+            app:srcCompat="@drawable/axe" />
+
+        <ImageButton
+            android:id="@+id/b6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_marginTop="50px"
+            android:layout_marginBottom="30px"
+            app:srcCompat="@drawable/knife" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="250px"
+            android:text="도끼" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="150px"
+            android:text="잭나이프" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/b7"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginTop="50px"
+            android:layout_marginBottom="30px"
+            app:srcCompat="@drawable/mobile" />
+
+        <ImageButton
+            android:id="@+id/b8"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_marginTop="50px"
+            android:layout_marginBottom="30px"
+            app:srcCompat="@drawable/scope" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="250px"
+            android:layout_marginBottom="50px"
+            android:text="무전기" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="150px"
+            android:text="망원경" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="용품을 선택하면 결과 페이지로 이동합니다."
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
