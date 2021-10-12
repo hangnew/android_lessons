@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sorted by Artists"/>
+
+        <ImageView
+            android:id="@+id/tab2Image2"
+            app:srcCompat="@drawable/joy"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"/>
+
+        <TextView
+            android:id="@+id/tab2Text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/google_green"
+            android:text="JOY:HELLO"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/tab2Button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:text="change image/text"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/google_red"/>
+
+</LinearLayout>

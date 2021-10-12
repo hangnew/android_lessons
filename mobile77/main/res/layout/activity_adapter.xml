@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".AdapterActivity">
+
+    <EditText
+        android:id="@+id/adapterText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="항목"
+        android:inputType="text"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/adapterButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리스트 항목 추가"
+        android:textSize="20sp"
+        android:backgroundTint="@color/google_green" />
+
+    <ListView
+        android:id="@+id/adapterList1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
